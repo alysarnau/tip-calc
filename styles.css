@@ -100,7 +100,8 @@ select {
     background-color: var(--dark-grey);
 }
 
-.error {
+.error, 
+#note {
     color: red;
     display: none;
 }

@@ -22,7 +22,7 @@
                     <div>
                         <label for="rate">Rate Service</label>
                         <select name="rate" id="rate">
-                            <option value="0.2">Great! - 20%</option>
+                            <option value="0.2" selected>Great! - 20%</option>
                             <option value="0.15">Good - 15%</option>
                             <option value="0.1">Meh - 10%</option>
                             <option value="0.05">Poor - 5%</option>
@@ -30,6 +30,7 @@
                     </div>
                     <button type="button" value="Calculate" class="btn">Calculate</button>
                     <p class="error">Please enter bill and rate service.</p>
+                    <p id="note">Did you know that for tipped work, the US government only requires workers to be paid <strong>$2.13</strong> per hour, without tips?</p>
                 </form>
                 <div class="result">
                     <p id="tip-amount">Tip Amount: $0</span>
